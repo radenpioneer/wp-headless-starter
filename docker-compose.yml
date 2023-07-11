@@ -21,7 +21,6 @@ services:
         define( 'WP_SITEURL', '$SITE_URL' );
         define( 'WP_DEFAULT_THEME', 'headless' );
         define( 'WP_AUTO_UPDATE_CORE', false );
-        define( 'WP_ENVIRONMENT_TYPE', '$WP_ENVIRONMENT_TYPE' );
     volumes:
       - wp-data:/usr/src/wordpress
     tmpfs:
